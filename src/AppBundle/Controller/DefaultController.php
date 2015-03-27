@@ -22,5 +22,12 @@ class DefaultController extends Controller
     {
         return $this->render('default/Ford_Mustang.html.twig');
     }
+    /**
+     * @Route("/Shelby_GT500.html", name="Shelby_GT500")
+     */
+    public function Shelby_GT500Action()
+    {
+        return $this->render('default/Shelby_GT500.html.twig');
+    }
 
 }
