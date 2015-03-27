@@ -22,5 +22,12 @@ class DefaultController extends Controller
     {
         return $this->render('default/Ford_Mustang.html.twig');
     }
+    /**
+    * @Route("/Golf3.html", name="Golf3")
+    */
+    public function Golf3Action()
+    {
+       return $this->render('default/Golf3.html.twig');
+    }
 
 }
