@@ -36,5 +36,12 @@ class DefaultController extends Controller
     {
         return $this->render('default/Polonez.html.twig');
     }
+    /**
+     * @Route("/Hyundai.html", name="Hyundai")
+     */
+    public function HyundaiAction()
+    {
+        return $this->render('default/Hyundai.html.twig');
+    }
 
 }
