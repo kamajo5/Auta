@@ -29,5 +29,12 @@ class DefaultController extends Controller
     {
         return $this->render('default/Shelby_GT500.html.twig');
     }
+    /**
+     * @Route("/Polonez.html", name="Polonez")
+     */
+    public function PolonezAction()
+    {
+        return $this->render('default/Polonez.html.twig');
+    }
 
 }
