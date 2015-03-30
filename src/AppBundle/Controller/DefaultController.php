@@ -48,6 +48,13 @@ class DefaultController extends Controller
     
     
     /* R2 */
+     /**
+     * @Route("/Ferrari.html", name="Ferrari")
+     */
+    public function FerrariAction()
+    {
+        return $this->render('default/Ferrari.html.twig');
+    }
     
     
     /* M1 */
