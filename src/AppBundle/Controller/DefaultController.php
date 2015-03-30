@@ -43,5 +43,24 @@ class DefaultController extends Controller
     {
         return $this->render('default/Hyundai.html.twig');
     }
+    
+    /* R1 */
+    
+    
+    /* R2 */
+    
+    
+    /* M1 */
+    
+    
+    /* M2 */
+    
+    
+    /* T1 */
+    
+    
+    /* T2 */
+    
+    
 
 }
