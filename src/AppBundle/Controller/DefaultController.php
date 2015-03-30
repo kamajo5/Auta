@@ -45,7 +45,13 @@ class DefaultController extends Controller
     }
     
     /* R1 */
-    
+    /**
+     * @Route("/Mazda.html", name="Mazda")
+     */
+    public function MazdaAction()
+    {
+        return $this->render('default/Mazda.html.twig');
+    }
     
     /* R2 */
     
