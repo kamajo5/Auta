@@ -70,7 +70,13 @@ class DefaultController extends Controller
     
     
     /* T1 */
-    
+     /**
+     * @Route("/Wolga.html", name="Wolga")
+     */
+    public function WolgaAction()
+    {
+        return $this->render('default/Wolga.html.twig');
+    }
     
     /* T2 */
     
