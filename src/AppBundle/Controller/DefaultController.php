@@ -70,6 +70,12 @@ class DefaultController extends Controller
     
     
     /* T1 */
+    
+    
+    
+    
+    
+    /* T2 */
     /**
      * @Route("/GolfIII.html", name="GolfIII")
      */
@@ -79,7 +85,7 @@ class DefaultController extends Controller
     }
     
     
-    /* T2 */
+    
     
     
 
