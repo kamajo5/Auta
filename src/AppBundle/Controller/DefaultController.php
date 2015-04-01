@@ -63,10 +63,21 @@ class DefaultController extends Controller
     }
     
     
+    
+    
+    
+    
     /* M1 */
     
     
+    
+    
+    
     /* M2 */
+    
+    
+    
+    
     
     
     /* T1 */
@@ -75,7 +86,21 @@ class DefaultController extends Controller
     
     
     
+    
+    
     /* T2 */
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     /**
      * @Route("/GolfIII.html", name="GolfIII")
      */
@@ -83,6 +108,8 @@ class DefaultController extends Controller
     {
         return $this->render('default/GolfIII.html.twig');
     }
+    
+    
     
     
     
