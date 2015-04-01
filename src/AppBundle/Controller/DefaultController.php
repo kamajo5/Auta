@@ -80,7 +80,13 @@ class DefaultController extends Controller
     
     
     /* T2 */
-    
+    /**
+     * @Route("/BMWi8.html", name="BMWi8")
+     */
+    public function BMWi8Action()
+    {
+        return $this->render('default/BMWi8.html.twig');
+    }
     
 
 }
