@@ -70,6 +70,13 @@ class DefaultController extends Controller
     
     
     /* T1 */
+    /**
+     * @Route("/GolfIII.html", name="GolfIII")
+     */
+    public function GolfIIIAction()
+    {
+        return $this->render('default/GolfIII.html.twig');
+    }
     
     
     /* T2 */
