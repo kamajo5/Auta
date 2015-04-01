@@ -102,7 +102,13 @@ class DefaultController extends Controller
     
     
     /* T2 */
-    
+      /**
+     * @Route("/Fiat.html", name="Fiat")
+     */
+    public function FiatAction()
+    {
+        return $this->render('default/Fiat.html.twig');
+    }
     
     
     
